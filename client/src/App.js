@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Image from "./Image.jpg"
 
 function App() {
+  console.log(Image)
   return (
     <div className="App">
       <div className="menu-box">
@@ -14,8 +16,13 @@ function App() {
       </div>
       <div className="intro">
         <div className="intro-box">
-          <img src="client\Profile_Pic_For_Work (2).jpg" className="intro-pic"></img>
-          <h1>Adam Hoffman's Full Stack Web Development Portfolio</h1>
+            <div className="image-container">
+              <img src={Image} className="intro-pic"></img>
+            </div>
+            <div className="h1-container">
+              <h1 className="h1">Adam Hoffman's Full Stack Web Development Portfolio</h1>
+              <p>Learn More<a href="#About" className="arrow right"></a></p>
+            </div>
         </div>
       </div>
     </div>
