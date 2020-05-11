@@ -16,6 +16,11 @@ import Git from "./Git.png"
 import Baseball from "./BaseBallPage.png"
 
 function App() {  
+  const popUp = () => {
+    var popup = document.getElementById("myPopup")
+    popup.classList.toggle("show")
+  }
+
   return (
     <div className="App">
       <div className="menu-box">
@@ -61,8 +66,17 @@ function App() {
             <h3>Baseball Game Predictor</h3>
             <h4>React || Redux || Node.JS || Knex || SQlite</h4>
             <p>A website built for the purpose of predicting the winner of every baseball game.</p>
-            <div className="git">
-              <a href="http://www.baseballgamepredictor.com/"><img src={Github}></img></a>
+            <div className="more-boxes">
+              <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img className="git-icon" src={Github}></img></a>
+            </div>
+            <div className="more-boxes">
+              <a href="http://www.baseballgamepredictor.com/"><p>Visit The Site!</p></a>
+            </div>
+            <div className="popup" onClick={popUp}>Learn More...
+              <span className="popuptext" id="myPopup">
+                <h5>About this project:</h5>
+                <p>What this project does is it projects the winner and loser of each game</p>
+              </span>
             </div>
           </div>
         </div>

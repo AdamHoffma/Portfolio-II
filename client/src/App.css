@@ -142,3 +142,22 @@
   margin: .5rem
 }
 
+.git-icon {
+  width: 22%
+}
+
+.popup {
+  cursor: pointer
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 50%;
+  background-color: khaki;
+  border-radius: .6rem;  
+}
+
+.popup .show {
+  visibility: visible;
+}
+
