@@ -14,6 +14,7 @@ import Heroku from "./Heroku.jpg"
 import Github from "./Github.png"
 import Git from "./Git.png"
 import Baseball from "./BaseBallPage.png"
+import Socket from "./Socket.jpg"
 
 function App() {  
   const popUp = () => {
@@ -58,6 +59,7 @@ function App() {
             <img className="skill_icon" src={Heroku}></img>
             <img className="skill_icon" src={Github}></img>
             <img className="skill_icon" src={Git}></img>
+            <img className="skill_icon" src={Socket}></img>
           </div>
         </div>
         <div className="projects" id="Projects">
@@ -75,7 +77,7 @@ function App() {
             <div className="popup" onClick={popUp}>Learn More...
               <span className="popuptext" id="myPopup">
                 <h5>About this project:</h5>
-                <p>What this project does is it projects the winner and loser of each game</p>
+                <p>Working with data scientists our groups goal was to create a website that predicted the winners of every MLB game. Our goal was to reach an accuracy above 50%, we achieved 54% by testing our model against previously played games. </p>
               </span>
             </div>
           </div>
