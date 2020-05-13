@@ -78,6 +78,8 @@ function App() {
               <span className="popuptext" id="myPopup">
                 <h5>About this project:</h5>
                 <p>Working with data scientists our groups goal was to create a website that predicted the winners of every MLB game. Our goal was to reach an accuracy above 50%, we achieved 54% by testing our model against previously played games. </p>
+                <h5>My Role:</h5>
+                <p>I built the back end routes and database to store data used to create the prediction model. The back end was built using Node.js, SQlite, and Knex. I was also in charge of the personalization of the front end, creating a profile page that was personalized and pleasing. The front end was created using React and Redux. API calls were done via Axios.</p>
               </span>
             </div>
           </div>
