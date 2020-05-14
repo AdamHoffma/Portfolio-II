@@ -39,7 +39,7 @@ function App() {
             </div>
             <div className="h1-container">
               <h1 className="h1">Adam Hoffman's Full Stack Web Development Portfolio</h1>
-              <a href="#About" className="arrow right"><p className="learn-more">Learn More</p></a>
+              <a href="#About" className="arrow right">Learn More</a>
             </div>
         </div>
         <div className="About" id="About">

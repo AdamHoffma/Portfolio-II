@@ -92,6 +92,8 @@
 }
 
 .learn-more {
+  color: white;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 
@@ -103,9 +105,12 @@
 
 .arrow {
   border: solid black;
-  border-width: 0 3px 3px 0;
+  border-width: 0 4px 4px 0;
   display: inline-block;
-  padding: 3px
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
 }
 
 .right {
