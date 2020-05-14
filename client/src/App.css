@@ -136,10 +136,22 @@
   width: 90%
 }
 
+.project-header {
+  text-align: center;
+  background-color: lightblue;
+  
+}
+
+.projects {
+  display: flex;  
+  background-color: lightblue;
+}
+
 .project1 {
   width: 30%;
   border: 2px solid black;
-  margin: .5rem
+  margin: 2.5rem
+
 }
 
 .git-icon {
@@ -151,13 +163,13 @@
 }
 
 .popup .popuptext {
-  visibility: hidden;
+  display: none;
   width: 50%;
   background-color: khaki;
   border-radius: .6rem;  
 }
 
 .popup .show {
-  visibility: visible;
+  display: initial
 }
 

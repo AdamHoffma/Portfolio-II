@@ -5,8 +5,8 @@ import Image from "./Image.jpg"
 import ReactIcon from "./ReactIcon.png"
 import NodeJSIcon from "./NodeJS.jpg"
 import PythonIcon from "./Python.jpg"
-import HTML from "./Html5.png"
-import CSS3 from "./CSS3.png"
+import Html from "./Html5.png"
+import Css3 from "./CSS3.png"
 import Javacript from "./Javascript.jpg"
 import Express from "./Express.png"
 import SQlite from "./SQlite.jpg"
@@ -52,8 +52,8 @@ function App() {
             <img className="skill_icon" src={ReactIcon}></img>
             <img className="skill_icon" src={NodeJSIcon}></img>
             <img className="skill_icon" src={PythonIcon}></img>
-            <img className="skill_icon" src={HTML}></img>
-            <img className="skill_icon" src={CSS3}></img>
+            <img className="skill_icon" src={Html}></img>
+            <img className="skill_icon" src={Css3}></img>
             <img className="skill_icon" src={Javacript}></img>
             <img className="skill_icon" src={Express}></img>
             <img className="skill_icon" src={SQlite}></img>
@@ -63,49 +63,52 @@ function App() {
             <img className="skill_icon" src={Socket}></img>
           </div>
         </div>
+        
         <div className="projects" id="Projects">
-          <div className="project1">
-            <img className="project-image" src={Baseball}></img>
-            <h3>Baseball Game Predictor</h3>
-            <h4>React || Redux || Node.JS || Knex || SQlite</h4>
-            <p>A website built for the purpose of predicting the winner of every baseball game.</p>
-            <div className="more-boxes">
-              <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img className="git-icon" src={Github}></img></a>
+          <h2 className="projects-header">Projects I'm proud of</h2>
+            <div className="project1">
+              <img className="project-image" src={Baseball}></img>
+              <h3>Baseball Game Predictor</h3>
+              <h4>React || Redux || Node.JS || Knex || SQlite</h4>
+              <p>A website built for the purpose of predicting the winner of every baseball game.</p>
+              <div className="more-boxes">
+                <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img className="git-icon" src={Github}></img></a>
+              </div>
+              <div className="more-boxes">
+                <a href="http://www.baseballgamepredictor.com/"><p>Visit The Site!</p></a>
+              </div>
+              <div className="popup" onClick={popUp}>Learn More...
+                <span className="popuptext" id="myPopup">
+                  <h5>About this project:</h5>
+                  <p>Working with data scientists our groups goal was to create a website that predicted the winners of every MLB game. Our goal was to reach an accuracy above 50%, we achieved 54% by testing our model against previously played games. </p>
+                  <h5>My Role:</h5>
+                  <p>I built the back end routes and database to store data used to create the prediction model. The back end was built using Node.js, SQlite, and Knex. I was also in charge of the personalization of the front end, creating a profile page that was personalized and pleasing. The front end was created using React and Redux. API calls were done via Axios.</p>
+                </span>
+              </div>
             </div>
-            <div className="more-boxes">
-              <a href="http://www.baseballgamepredictor.com/"><p>Visit The Site!</p></a>
+            <div className="project1">
+              <img className="project-image" src={Good}></img>
+              <h3>Baseball Game Predictor</h3>
+              <h4>React || Redux || Node.JS || Knex || SQlite</h4>
+              <p>A website built for the purpose of predicting the winner of every baseball game.</p>
+              <div className="more-boxes">
+                <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img className="git-icon" src={Github}></img></a>
+              </div>
+              <div className="more-boxes">
+                <a href="http://www.baseballgamepredictor.com/"><p>Visit The Site!</p></a>
+              </div>
+              <div className="popup" onClick={popUp}>Learn More...
+                <span className="popuptext" id="myPopup">
+                  <h5>About this project:</h5>
+                  <p>Working with data scientists our groups goal was to create a website that predicted the winners of every MLB game. Our goal was to reach an accuracy above 50%, we achieved 54% by testing our model against previously played games. </p>
+                  <h5>My Role:</h5>
+                  <p>I built the back end routes and database to store data used to create the prediction model. The back end was built using Node.js, SQlite, and Knex. I was also in charge of the personalization of the front end, creating a profile page that was personalized and pleasing. The front end was created using React and Redux. API calls were done via Axios.</p>
+                </span>
+              </div>
             </div>
-            <div className="popup" onClick={popUp}>Learn More...
-              <span className="popuptext" id="myPopup">
-                <h5>About this project:</h5>
-                <p>Working with data scientists our groups goal was to create a website that predicted the winners of every MLB game. Our goal was to reach an accuracy above 50%, we achieved 54% by testing our model against previously played games. </p>
-                <h5>My Role:</h5>
-                <p>I built the back end routes and database to store data used to create the prediction model. The back end was built using Node.js, SQlite, and Knex. I was also in charge of the personalization of the front end, creating a profile page that was personalized and pleasing. The front end was created using React and Redux. API calls were done via Axios.</p>
-              </span>
-            </div>
-          </div>
         </div>
         <div className="projects" id="Projects">
-          <div className="project1">
-            <img className="project-image" src={Good}></img>
-            <h3>Baseball Game Predictor</h3>
-            <h4>React || Redux || Node.JS || Knex || SQlite</h4>
-            <p>A website built for the purpose of predicting the winner of every baseball game.</p>
-            <div className="more-boxes">
-              <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img className="git-icon" src={Github}></img></a>
-            </div>
-            <div className="more-boxes">
-              <a href="http://www.baseballgamepredictor.com/"><p>Visit The Site!</p></a>
-            </div>
-            <div className="popup" onClick={popUp}>Learn More...
-              <span className="popuptext" id="myPopup">
-                <h5>About this project:</h5>
-                <p>Working with data scientists our groups goal was to create a website that predicted the winners of every MLB game. Our goal was to reach an accuracy above 50%, we achieved 54% by testing our model against previously played games. </p>
-                <h5>My Role:</h5>
-                <p>I built the back end routes and database to store data used to create the prediction model. The back end was built using Node.js, SQlite, and Knex. I was also in charge of the personalization of the front end, creating a profile page that was personalized and pleasing. The front end was created using React and Redux. API calls were done via Axios.</p>
-              </span>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
