@@ -15,7 +15,7 @@ import Github from "./Github.png"
 import Git from "./Git.png"
 import Baseball from "./BaseBallPage.png"
 import Socket from "./Socket.jpg"
-import Good from "./GoodTimeJournal.png"
+import Design from "./Design.png"
 
 function App() {  
   const popUp = () => {
@@ -39,7 +39,7 @@ function App() {
             </div>
             <div className="h1-container">
               <h1 className="h1">Adam Hoffman's Full Stack Web Development Portfolio</h1>
-              <p>Learn More<a href="#About" className="arrow right"></a></p>
+              <a href="#About" className="arrow right"><p className="learn-more">Learn More</p></a>
             </div>
         </div>
         <div className="About" id="About">
@@ -88,15 +88,15 @@ function App() {
               </div>
             </div>
             <div className="project1">
-              <img className="project-image" src={Good}></img>
-              <h3>Baseball Game Predictor</h3>
+              <img className="project-image" src={Design}></img>
+              <h3>Design Your Life</h3>
               <h4>React || Redux || Node.JS || Knex || SQlite</h4>
               <p>A website built for the purpose of predicting the winner of every baseball game.</p>
               <div className="more-boxes">
-                <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img className="git-icon" src={Github}></img></a>
+                <a href="https://github.com/Design-Your-Life-Build-Week/Back-End"><img className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
-                <a href="http://www.baseballgamepredictor.com/"><p>Visit The Site!</p></a>
+                <a href="https://designyourlife.now.sh/"><p>Visit The Site!</p></a>
               </div>
               <div className="popup" onClick={popUp}>Learn More...
                 <span className="popuptext" id="myPopup">
