@@ -66,6 +66,7 @@ function App() {
         
         <div className="projects" id="Projects">
           <h2 className="projects-header">Projects I'm proud of</h2>
+          <div className="project-container">
             <div className="project1">
               <img className="project-image" src={Baseball}></img>
               <h3>Baseball Game Predictor</h3>
@@ -106,6 +107,7 @@ function App() {
                 </span>
               </div>
             </div>
+          </div>
         </div>
         <div className="projects" id="Projects">
          

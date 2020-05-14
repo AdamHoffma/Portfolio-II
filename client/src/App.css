@@ -136,22 +136,25 @@
   width: 90%
 }
 
-.project-header {
-  text-align: center;
-  background-color: lightblue;
-  
+.projects-header {
+  margin: auto;
+  padding-top: 1.5rem;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px lightcoral
 }
 
-.projects {
-  display: flex;  
+.projects { 
   background-color: lightblue;
+}
+
+.project-container {
+  display: flex
 }
 
 .project1 {
   width: 30%;
   border: 2px solid black;
-  margin: 2.5rem
-
+  margin: 2.5rem 1.5rem
 }
 
 .git-icon {
