@@ -23,6 +23,11 @@ function App() {
     popup.classList.toggle("show")
   }
 
+  const popUP2 = () => {
+    var popup2 = document.getElementById("myPopup2")
+    popup2.classList.toggle("show2")
+  }
+
   return (
     <div className="App">
       <div className="menu-box">
