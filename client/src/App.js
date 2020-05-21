@@ -50,7 +50,7 @@ function App() {
         <div className="About" id="About">
           <div className="about_box">
             <h2>About Me</h2>
-            <p className="about-paragraph">Hi, my name is Adam Hoffman and I am currently a student at Lambda University. I am studying Full Stack Web Development. Prior to being a student at Lambda I ran a successful home remodeling business with my father. I've decided to branch out and learn a new skill set and I've learned so much at Lambda. From the begginnings of HTML and CSS and on into React for front end work and Node.JS for back end work. Check out below to see all the skills I've acquired!</p>
+            <p className="about-paragraph">Hi, my name is Adam Hoffman and I am currently a student at Lambda University. I am studying Full Stack Web Development. Prior to being a student at Lambda I ran a successful home remodeling business with my father. I've decided to branch out and learn a new skill set and I've learned so much at Lambda. From the begginnings of HTML and CSS and on into React for front end work and Node.JS for back end work. Check out all the skills I've acquired!</p>
           </div>
           <div className="skills">
             <h2>Skills and Technologies</h2>
