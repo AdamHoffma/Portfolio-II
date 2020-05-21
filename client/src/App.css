@@ -176,14 +176,29 @@
   cursor: pointer
 }
 
+.popup2 {
+  cursor: pointer
+}
+
 .popup .popuptext {
   display: none;
-  width: 50%;
-  background-color: khaki;
+  width: 50%;  
   border-radius: .6rem;  
 }
 
 .popup .show {
   display: initial
 }
+
+.popup2 .popuptext2 {
+  display: none;
+  width: 50%;  
+  border-radius: .6rem;  
+}
+
+.popup2 .show2 {
+  display: initial
+}
+
+
 

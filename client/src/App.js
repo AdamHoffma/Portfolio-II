@@ -25,7 +25,7 @@ function App() {
 
   const popUp2 = () => {
     var popup2 = document.getElementById("myPopup2")
-    popup2.classList.toggle("show")
+    popup2.classList.toggle("show2")
   }
 
   return (
@@ -103,8 +103,8 @@ function App() {
               <div className="more-boxes">
                 <a href="https://designyourlife.now.sh/"><p>Visit The Site!</p></a>
               </div>
-              <div className="popup" onClick={popUp2}>Learn More...
-                <span className="popuptext" id="myPopup2">
+              <div className="popup2" onClick={popUp2}>Learn More...
+                <span className="popuptext2" id="myPopup2">
                   <h5>About this project:</h5>
                   <p></p>
                   <h5>My Role:</h5>
@@ -113,10 +113,7 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="projects" id="Projects">
-         
-        </div>
+        </div>        
       </div>
     </div>
   );
