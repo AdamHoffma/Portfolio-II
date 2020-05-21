@@ -23,9 +23,9 @@ function App() {
     popup.classList.toggle("show")
   }
 
-  const popUP2 = () => {
+  const popUp2 = () => {
     var popup2 = document.getElementById("myPopup2")
-    popup2.classList.toggle("show2")
+    popup2.classList.toggle("show")
   }
 
   return (
@@ -95,20 +95,20 @@ function App() {
             <div className="project1">
               <img className="project-image" src={Design}></img>
               <h3>Design Your Life</h3>
-              <h4>React || Redux || Node.JS || Knex || SQlite</h4>
-              <p>A website built for the purpose of predicting the winner of every baseball game.</p>
+              <h4>Node.JS || Knex || SQlite</h4>
+              <p>A beautiful website built to create better habits in you day to day life</p>
               <div className="more-boxes">
                 <a href="https://github.com/Design-Your-Life-Build-Week/Back-End"><img className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
                 <a href="https://designyourlife.now.sh/"><p>Visit The Site!</p></a>
               </div>
-              <div className="popup" onClick={popUp}>Learn More...
-                <span className="popuptext" id="myPopup">
+              <div className="popup" onClick={popUp2}>Learn More...
+                <span className="popuptext" id="myPopup2">
                   <h5>About this project:</h5>
-                  <p>Working with data scientists our groups goal was to create a website that predicted the winners of every MLB game. Our goal was to reach an accuracy above 50%, we achieved 54% by testing our model against previously played games. </p>
+                  <p></p>
                   <h5>My Role:</h5>
-                  <p>I built the back end routes and database to store data used to create the prediction model. The back end was built using Node.js, SQlite, and Knex. I was also in charge of the personalization of the front end, creating a profile page that was personalized and pleasing. The front end was created using React and Redux. API calls were done via Axios.</p>
+                  <p>I was fully in charge of creating the back end for this project. I created the registration and login functionality using Bcrypt and JsonWebTokens. I created the databases for storing a users categories and habits and notes on those habits. I used Knex, Node.JS and Sqlite. I also built all back end routes</p>
                 </span>
               </div>
             </div>
