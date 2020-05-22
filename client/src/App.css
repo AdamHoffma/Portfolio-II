@@ -183,7 +183,8 @@
 .popup .popuptext {
   display: none;
   width: 50%;  
-  border-radius: .6rem;  
+  border-radius: .6rem;
+   
 }
 
 .popup .show {

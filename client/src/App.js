@@ -112,6 +112,26 @@ function App() {
                 </span>
               </div>
             </div>
+            <div className="project1">
+              <img className="project-image" src={Design}></img>
+              <h3>Design Your Life</h3>
+              <h4>Node.JS || Knex || SQlite</h4>
+              <p>A beautiful website built to create better habits in you day to day life</p>
+              <div className="more-boxes">
+                <a href="https://github.com/Design-Your-Life-Build-Week/Back-End"><img className="git-icon" src={Github}></img></a>
+              </div>
+              <div className="more-boxes">
+                <a href="https://designyourlife.now.sh/"><p>Visit The Site!</p></a>
+              </div>
+              <div className="popup2" onClick={popUp2}>Learn More...
+                <span className="popuptext2" id="myPopup2">
+                  <h5>About this project:</h5>
+                  <p>This is a website designed for user to create a one stop page for the habits they would like to create in their life. They can select different categories to place habits under, leave themselves notes on that habit like time of day, reason for the habit or just feedback on how it's going. We also built a 5 star ranking system so the user could rank their enjoyment of that particular habit.</p>
+                  <h5>My Role:</h5>
+                  <p>I was fully in charge of creating the back end for this project. I created the registration and login functionality using Bcrypt and JsonWebTokens. I created the databases for storing a users categories and habits and notes on those habits. I used Knex, Node.JS and Sqlite. I also built all back end routes</p>
+                </span>
+              </div>
+            </div>
           </div>
         </div>        
       </div>
