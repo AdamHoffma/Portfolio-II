@@ -16,6 +16,7 @@ import Git from "./Git.png"
 import Baseball from "./BaseBallPage.png"
 import Socket from "./Socket.jpg"
 import Design from "./Design.png"
+import Chat from "./ChatApp.png"
 
 function App() {  
   const popUp = () => {
@@ -113,22 +114,22 @@ function App() {
               </div>
             </div>
             <div className="project1">
-              <img className="project-image" src={Design}></img>
-              <h3>Design Your Life</h3>
-              <h4>Node.JS || Knex || SQlite</h4>
-              <p>A beautiful website built to create better habits in you day to day life</p>
+              <img className="project-image" src={Chat}></img>
+              <h3>Chat App</h3>
+              <h4>Node.JS || React || Socket.Io</h4>
+              <p>Ready to join chatrooms</p>
               <div className="more-boxes">
-                <a href="https://github.com/Design-Your-Life-Build-Week/Back-End"><img className="git-icon" src={Github}></img></a>
+                <a href="https://github.com/AdamHoffma/ReactChatApp"><img className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
-                <a href="https://designyourlife.now.sh/"><p>Visit The Site!</p></a>
+                <a href="https://adamchatroom.netlify.app/"><p>Visit The Site!</p></a>
               </div>
               <div className="popup2" onClick={popUp2}>Learn More...
                 <span className="popuptext2" id="myPopup2">
                   <h5>About this project:</h5>
-                  <p></p>
+                  <p>This is a fairly basic chat room app. You enter your name and a room name and it will create a private chatroom. It was built using Node.JS, React and Socket.Io. The primary function of this app was to learn the ins and outs of socket.Io so that I could bring chat features into any app or website I create.</p>
                   <h5>My Role:</h5>
-                  <p>I was fully in charge of creating the back end for this project. I created the registration and login functionality using Bcrypt and JsonWebTokens. I created the databases for storing a users categories and habits and notes on those habits. I used Knex, Node.JS and Sqlite. I also built all back end routes</p>
+                  <p>I built this project on my own, it all my work. I used a youtube tutorial as a guide and the Socket.Io documentation.</p>
                 </span>
               </div>
             </div>
