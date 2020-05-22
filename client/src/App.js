@@ -106,7 +106,7 @@ function App() {
               <div className="popup2" onClick={popUp2}>Learn More...
                 <span className="popuptext2" id="myPopup2">
                   <h5>About this project:</h5>
-                  <p></p>
+                  <p>This is a website designed for user to create a one stop page for the habits they would like to create in their life. They can select different categories to place habits under, leave themselves notes on that habit like time of day, reason for the habit or just feedback on how it's going. We also built a 5 star ranking system so the user could rank their enjoyment of that particular habit.</p>
                   <h5>My Role:</h5>
                   <p>I was fully in charge of creating the back end for this project. I created the registration and login functionality using Bcrypt and JsonWebTokens. I created the databases for storing a users categories and habits and notes on those habits. I used Knex, Node.JS and Sqlite. I also built all back end routes</p>
                 </span>
@@ -126,7 +126,7 @@ function App() {
               <div className="popup2" onClick={popUp2}>Learn More...
                 <span className="popuptext2" id="myPopup2">
                   <h5>About this project:</h5>
-                  <p>This is a website designed for user to create a one stop page for the habits they would like to create in their life. They can select different categories to place habits under, leave themselves notes on that habit like time of day, reason for the habit or just feedback on how it's going. We also built a 5 star ranking system so the user could rank their enjoyment of that particular habit.</p>
+                  <p></p>
                   <h5>My Role:</h5>
                   <p>I was fully in charge of creating the back end for this project. I created the registration and login functionality using Bcrypt and JsonWebTokens. I created the databases for storing a users categories and habits and notes on those habits. I used Knex, Node.JS and Sqlite. I also built all back end routes</p>
                 </span>
