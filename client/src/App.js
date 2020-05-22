@@ -29,6 +29,11 @@ function App() {
     popup2.classList.toggle("show2")
   }
 
+  const popUp3 = () => {
+    var popup3 = document.getElementById("myPopup3")
+    popup3.classList.toggle("show3")
+  }
+
   return (
     <div className="App">
       <div className="menu-box">
@@ -124,8 +129,8 @@ function App() {
               <div className="more-boxes">
                 <a href="https://adamchatroom.netlify.app/"><p>Visit The Site!</p></a>
               </div>
-              <div className="popup2" onClick={popUp2}>Learn More...
-                <span className="popuptext2" id="myPopup2">
+              <div className="popup3" onClick={popUp3}>Learn More...
+                <span className="popuptext3" id="myPopup3">
                   <h5>About this project:</h5>
                   <p>This is a fairly basic chat room app. You enter your name and a room name and it will create a private chatroom. It was built using Node.JS, React and Socket.Io. The primary function of this app was to learn the ins and outs of socket.Io so that I could bring chat features into any app or website I create.</p>
                   <h5>My Role:</h5>

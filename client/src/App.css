@@ -180,6 +180,10 @@
   cursor: pointer
 }
 
+.popup3 {
+  cursor: pointer
+}
+
 .popup .popuptext {
   display: none;
   width: 50%;  
@@ -197,9 +201,18 @@
   border-radius: .6rem;  
 }
 
+.popup3 .popuptext3 {
+  display: none;
+  width: 50%;  
+  border-radius: .6rem;  
+}
+
 .popup2 .show2 {
   display: initial
 }
 
+.popup3 .show3 {
+  display: initial
+}
 
 
