@@ -148,8 +148,8 @@ function App() {
           <div className="artifacts">
             <h3 className="artifact-font">LinkedIn || Github || Resume</h3>
             <a href="https://www.linkedin.com/in/adam-hoffman-93ba371a7/"><img className="artifact-image" src={Linked}></img></a>
-            <a href="#"><img className="artifact-image1" src={Github}></img></a>
-            <a href="#"><img className="artifact-image" src={Resume}></img></a>
+            <a href="https://github.com/AdamHoffma"><img className="artifact-image1" src={Github}></img></a>
+            <a href="https://www.dropbox.com/home?preview=Adam+Hoffman+Full+Stack+Developer+Resume.PDF"><img className="artifact-image" src={Resume}></img></a>
           </div>
         </div>        
       </div>
