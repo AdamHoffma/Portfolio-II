@@ -17,6 +17,8 @@ import Baseball from "./BaseBallPage.png"
 import Socket from "./Socket.jpg"
 import Design from "./Design.png"
 import Chat from "./ChatApp.png"
+import Linked from "./linkedin.jpg"
+import Resume from "./ResumeImage.jpg"
 
 function App() {  
   const popUp = () => {
@@ -73,8 +75,7 @@ function App() {
             <img className="skill_icon" src={Git}></img>
             <img className="skill_icon" src={Socket}></img>
           </div>
-        </div>
-        
+        </div>        
         <div className="projects" id="Projects">
           <h2 className="projects-header">Projects I'm proud of</h2>
           <div className="project-container">
@@ -134,10 +135,21 @@ function App() {
                   <h5>About this project:</h5>
                   <p>This is a fairly basic chat room app. You enter your name and a room name and it will create a private chatroom. It was built using Node.JS, React and Socket.Io. The primary function of this app was to learn the ins and outs of socket.Io so that I could bring chat features into any app or website I create.</p>
                   <h5>My Role:</h5>
-                  <p>I built this project on my own, it all my work. I used a youtube tutorial as a guide and the Socket.Io documentation.</p>
+                  <p>I built this project on my own, it is all my work. I used a youtube tutorial as a guide and the Socket.Io documentation.</p>
                 </span>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="contact" id="Contact">
+          <div className="email">
+            <h2 className='email-header'>Email: wintros@yahoo.com</h2>
+          </div>
+          <div className="artifacts">
+            <h3 className="artifact-font">LinkedIn || Github || Resume</h3>
+            <a href="https://www.linkedin.com/in/adam-hoffman-93ba371a7/"><img className="artifact-image" src={Linked}></img></a>
+            <a href="#"><img className="artifact-image1" src={Github}></img></a>
+            <a href="#"><img className="artifact-image" src={Resume}></img></a>
           </div>
         </div>        
       </div>

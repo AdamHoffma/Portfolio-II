@@ -215,4 +215,34 @@
   display: initial
 }
 
+.contact {
+  padding-top: 2rem;
+  background-color: ghostwhite;
+}
+
+.email-header {
+  font-size: 2.4rem;
+}
+
+.artifact-font {
+  font-size: 1.8rem;
+  color: crimson
+}
+
+.artifacts {
+  width: 65%;
+  margin: auto;
+ 
+}
+
+.artifact-image {
+  width: 15%;
+  padding: 4rem
+}
+
+.artifact-image1 {
+  width: 25%;
+  padding: 6rem
+}
+
 
