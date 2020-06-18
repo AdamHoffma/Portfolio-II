@@ -87,7 +87,7 @@ function App() {
                 <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img alt="github icon" className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
-                <a href="http://www.baseballgamepredictor.com/"><p>Visit The Site!</p></a>
+                <a href="http://www.baseballgamepredictor.com/login"><p>Visit The Site!</p></a>
               </div>
               <div className="popup" onClick={popUp}>Learn More...
                 <span className="popuptext" id="myPopup">
