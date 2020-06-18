@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Image from "./Image.jpg"
 import ReactIcon from "./ReactIcon.png"
@@ -48,7 +47,7 @@ function App() {
       <div className="intro">
         <div className="intro-box">
             <div className="image-container">
-              <img alt="Profile Picture" src={Image} className="intro-pic"></img>
+              <img alt="Profile" src={Image} className="intro-pic"></img>
             </div>
             <div className="h1-container">
               <h1 className="h1">Adam Hoffman's Full Stack Web Development Portfolio</h1>
