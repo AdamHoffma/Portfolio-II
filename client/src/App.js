@@ -48,7 +48,7 @@ function App() {
       <div className="intro">
         <div className="intro-box">
             <div className="image-container">
-              <img src={Image} className="intro-pic"></img>
+              <img alt="Profile Picture" src={Image} className="intro-pic"></img>
             </div>
             <div className="h1-container">
               <h1 className="h1">Adam Hoffman's Full Stack Web Development Portfolio</h1>
@@ -62,30 +62,30 @@ function App() {
           </div>
           <div className="skills">
             <h2>Skills and Technologies</h2>
-            <img className="skill_icon" src={ReactIcon}></img>
-            <img className="skill_icon" src={NodeJSIcon}></img>
-            <img className="skill_icon" src={PythonIcon}></img>
-            <img className="skill_icon" src={Html}></img>
-            <img className="skill_icon" src={Css3}></img>
-            <img className="skill_icon" src={Javacript}></img>
-            <img className="skill_icon" src={Express}></img>
-            <img className="skill_icon" src={SQlite}></img>
-            <img className="skill_icon" src={Heroku}></img>
-            <img className="skill_icon" src={Github}></img>
-            <img className="skill_icon" src={Git}></img>
-            <img className="skill_icon" src={Socket}></img>
+            <img alt="React Icon" className="skill_icon" src={ReactIcon}></img>
+            <img alt="Node.JS Icon" className="skill_icon" src={NodeJSIcon}></img>
+            <img alt="Python Icon" className="skill_icon" src={PythonIcon}></img>
+            <img alt="Html icon" className="skill_icon" src={Html}></img>
+            <img alt="CSS Icon" className="skill_icon" src={Css3}></img>
+            <img alt="Javascript icon" className="skill_icon" src={Javacript}></img>
+            <img alt="Express Icon" className="skill_icon" src={Express}></img>
+            <img alt="SQlite icon" className="skill_icon" src={SQlite}></img>
+            <img alt="Heroku icon" className="skill_icon" src={Heroku}></img>
+            <img alt ="gitbug icon" className="skill_icon" src={Github}></img>
+            <img alt="Git icon" className="skill_icon" src={Git}></img>
+            <img alt ="socketIO icon" className="skill_icon" src={Socket}></img>
           </div>
         </div>        
         <div className="projects" id="Projects">
           <h2 className="projects-header">Projects I'm proud of</h2>
           <div className="project-container">
             <div className="project1">
-              <img className="project-image" src={Baseball}></img>
+              <img alt="Baseball website screenshot" className="project-image" src={Baseball}></img>
               <h3>Baseball Game Predictor</h3>
               <h4>React || Redux || Node.JS || Knex || SQlite</h4>
               <p>A website built for the purpose of predicting the winner of every baseball game.</p>
               <div className="more-boxes">
-                <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img className="git-icon" src={Github}></img></a>
+                <a href="https://github.com/AdamHoffma/baseball-game-prediction-be"><img alt="github icon" className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
                 <a href="http://www.baseballgamepredictor.com/"><p>Visit The Site!</p></a>
@@ -100,12 +100,12 @@ function App() {
               </div>
             </div>
             <div className="project1">
-              <img className="project-image" src={Design}></img>
+              <img alt="Design you life website screenshot" className="project-image" src={Design}></img>
               <h3>Design Your Life</h3>
               <h4>Node.JS || Knex || SQlite</h4>
               <p>A beautiful website built to create better habits in you day to day life</p>
               <div className="more-boxes">
-                <a href="https://github.com/Design-Your-Life-Build-Week/Back-End"><img className="git-icon" src={Github}></img></a>
+                <a href="https://github.com/Design-Your-Life-Build-Week/Back-End"><img alt="github icon" className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
                 <a href="https://designyourlife.now.sh/"><p>Visit The Site!</p></a>
@@ -120,12 +120,12 @@ function App() {
               </div>
             </div>
             <div className="project1">
-              <img className="project-image" src={Chat}></img>
+              <img alt="Chatroom website icon" className="project-image" src={Chat}></img>
               <h3>Chat App</h3>
               <h4>Node.JS || React || Socket.Io</h4>
               <p>Ready to join chatrooms</p>
               <div className="more-boxes">
-                <a href="https://github.com/AdamHoffma/ReactChatApp"><img className="git-icon" src={Github}></img></a>
+                <a href="https://github.com/AdamHoffma/ReactChatApp"><img alt="github icon" className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
                 <a href="https://adamchatroom.netlify.app/"><p>Visit The Site!</p></a>
@@ -147,9 +147,9 @@ function App() {
           </div>
           <div className="artifacts">
             <h3 className="artifact-font">LinkedIn || Github || Resume</h3>
-            <a href="https://www.linkedin.com/in/adam-hoffman-93ba371a7/"><img className="artifact-image" src={Linked}></img></a>
-            <a href="https://github.com/AdamHoffma"><img className="artifact-image1" src={Github}></img></a>
-            <a href="https://www.dropbox.com/s/ou2ui323ihvevnu/Adam%20Hoffman%20Full%20Stack%20Developer%20Resume.PDF?dl=0"><img className="artifact-image" src={Resume}></img></a>
+            <a href="https://www.linkedin.com/in/adam-hoffman-93ba371a7/"><img alt="Linked In icon" className="artifact-image" src={Linked}></img></a>
+            <a href="https://github.com/AdamHoffma"><img alt="github icon" className="artifact-image1" src={Github}></img></a>
+            <a href="https://www.dropbox.com/s/ou2ui323ihvevnu/Adam%20Hoffman%20Full%20Stack%20Developer%20Resume.PDF?dl=0"><img alt="resume icon" className="artifact-image" src={Resume}></img></a>
           </div>
         </div>        
       </div>
