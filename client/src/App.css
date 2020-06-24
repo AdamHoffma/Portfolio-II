@@ -44,7 +44,7 @@ html {
 
 .menu-box {
   width: 100%;
-  height: 5rem;
+  height: 8.4vw;
   background-color: beige;
 }
 
@@ -59,7 +59,7 @@ html {
   margin: auto;
   color: black;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 2.8vw;
   padding: 12px
 }
 
@@ -95,12 +95,7 @@ html {
   font-size: 4.5vw;
   color: white;
   text-shadow: 1px 1px 1px black;  
-}
-
-.learn-more {
-  color: white;
-  font-size: 1.3rem;
-  text-decoration: none;
+  padding: 6rem
 }
 
 .intro-pic {
@@ -110,12 +105,12 @@ html {
 
 .arrow {
   border: solid black;
-  border-width: 0 4px 4px 0;
+  border-width: 0 .8vw .8vw 0;
   display: inline-block;
-  padding: 5px;
+  padding: 1rem;
   text-decoration: none;
-  color: white;
-  font-size: 1.3rem;
+  color: rgb(94, 3, 94);
+  font-size: 2.6vw;
 }
 
 .right {
