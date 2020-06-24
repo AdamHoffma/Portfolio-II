@@ -134,6 +134,11 @@ html {
   width: 50%;    
 }
 
+h2 {
+  font-size: 3.5vw;
+  text-decoration: underline;
+}
+
 .skill_icon {
   width: 12vw;
   height: 12vw;
