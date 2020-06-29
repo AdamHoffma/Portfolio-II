@@ -148,7 +148,7 @@ function App() {
             <h3 className="artifact-font">LinkedIn || Github || Resume</h3>
             <a href="https://www.linkedin.com/in/adam-hoffman-93ba371a7/"><img alt="Linked In icon" className="artifact-image" src={Linked}></img></a>
             <a href="https://github.com/AdamHoffma"><img alt="github icon" className="artifact-image1" src={Github}></img></a>
-            <a href="https://www.dropbox.com/s/cwj49ixyzks48rj/Adam%20Hoffman%20Full%20Stack%20Developer%20Resume.PDF?dl=0"><img alt="resume icon" className="artifact-image" src={Resume}></img></a>
+            <a href="https://www.dropbox.com/s/996qu1owtompomg/Adam%20Hoffman%20Full%20Stack%20Developer%20Resume.PDF?dl=0"><img alt="resume icon" className="artifact-image" src={Resume}></img></a>
           </div>
         </div>        
       </div>
