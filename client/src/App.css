@@ -45,7 +45,7 @@ html {
 .menu-box {
   width: 100%;
   height: 8.4vw;
-  background-color: beige;
+  background-color: white;
 }
 
 .nav-box  {
@@ -103,18 +103,9 @@ html {
   border-radius: 50%;
 }
 
-.arrow {
-  border: solid black;
-  border-width: 0 .8vw .8vw 0;
-  display: inline-block;
-  padding: 1rem;
-  text-decoration: none;
-  color: rgb(94, 3, 94);
-  font-size: 2.6vw;
-}
-
-.right {
-  transform: rotate(-45deg);
+.learn {
+  font-size: 8vh;
+  color: whitesmoke;  
 }
 
 .About {
@@ -123,7 +114,8 @@ html {
 }
 .about_box {
   width: 50%;
-  background-color: rgb(214, 213, 213);
+  background-color: white;
+  border-right: 2px solid black;
 }
 
 .about-paragraph {
@@ -158,7 +150,7 @@ h2 {
 }
 
 .projects { 
-  background-color: lightblue;
+  background-color: cornflowerblue;
 }
 
 .project-container {
@@ -231,7 +223,7 @@ h2 {
 
 .artifact-font {
   font-size: 1.8rem;
-  color: crimson
+  color: cornflowerblue
 }
 
 .artifacts {
