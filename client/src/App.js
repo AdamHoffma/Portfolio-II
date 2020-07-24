@@ -85,12 +85,12 @@ function App() {
               <img alt="Design you life website screenshot" className="project-image" src={Design}></img>
               <h3 className="project-title">Design Your Life</h3>
               <h4 className="project-title">Node.JS || Knex || SQlite</h4>
-              <p className="project-title">A beautiful website built to create better habits in you day to day life</p>
+              <p className="project-title">A beautiful website built to create better habits in your day to day life</p>
               <div className="more-boxes">
                 <a href="https://github.com/Design-Your-Life-Build-Week/Back-End"><img alt="github icon" className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
-                <a className="project-title" href="https://designyourlife.now.sh/"><p>Visit The Site!</p></a>
+                <a className="visit" href="https://designyourlife.now.sh/"><p>Visit The Site!</p></a>
               </div>
               <div className="popup2" onClick={popUp2}>Learn More...
                 <span className="popuptext2" id="myPopup2">
@@ -110,7 +110,7 @@ function App() {
                 <a href="https://github.com/AdamHoffma/ReactChatApp"><img alt="github icon" className="git-icon" src={Github}></img></a>
               </div>
               <div className="more-boxes">
-                <a className="project-title" href="https://adamchatroom.netlify.app/"><p>Visit The Site!</p></a>
+                <a className="visit" href="https://adamchatroom.netlify.app/"><p>Visit The Site!</p></a>
               </div>
               <div className="popup3" onClick={popUp3}>Learn More...
                 <span className="popuptext3" id="myPopup3">
@@ -125,14 +125,14 @@ function App() {
         </div>
         <div className="About" id="About">
           <div className="about_box">
-            <h2>About Me</h2>
+            <h2 className="about-header">About Me</h2>
             <p className="about-paragraph">Hi, my name is Adam Hoffman and I am currently a student at Lambda University. 
               I am studying Full Stack Web Development. Prior to being a student at Lambda I ran a successful home remodeling business with my father. 
               I've decided to branch out and learn a new skill set and I've learned so much at Lambda. 
-              From the begginnings of HTML and CSS and on into React for front end work and Node.JS for back end work. Check out all the skills I've acquired!</p>
+              From the beginnings of HTML and CSS and on into React for front end work and Node.JS for back end work. Check out all the skills I've acquired!</p>
           </div>
           <div className="skills">
-            <h2>Skills and Technologies</h2>
+            <h2 className="skills-text">Skills and Technologies</h2>
             <img alt="React Icon" className="skill_icon" src={ReactIcon}></img>
             <img alt="Node.JS Icon" className="skill_icon" src={NodeJSIcon}></img>
             <img alt="Python Icon" className="skill_icon" src={PythonIcon}></img>
@@ -148,14 +148,17 @@ function App() {
           </div>
         </div>           
         <div className="contact" id="Contact">
+          <h1 className="contact-header">Contact Me</h1>
           <div className="email">
-            <h2 className='email-header'>Email: wintros@yahoo.com</h2>
+            <a className="mailto" href="mailto:wintros@yahoo.com"><h2 className='email-header'>wintros@yahoo.com</h2></a>
           </div>
           <div className="artifacts">
-            <h3 className="artifact-font">LinkedIn || Github || Resume</h3>
-            <a href="https://www.linkedin.com/in/adam-hoffman-93ba371a7/"><img alt="Linked In icon" className="artifact-image" src={Linked}></img></a>
-            <a href="https://github.com/AdamHoffma"><img alt="github icon" className="artifact-image1" src={Github}></img></a>
-            <a href="https://www.dropbox.com/s/l5vgjssbgt3xvn5/Adam%20Hoffman%20Full%20Stack%20Developer%20Resume.PDF?dl=0"><img alt="resume icon" className="artifact-image" src={Resume}></img></a>
+            <a className="artifact-font" href="https://www.linkedin.com/in/adam-hoffman-93ba371a7/" target="_blank"><h3>LinkedIn</h3></a>
+            <a className="artifact-font" href="https://github.com/AdamHoffma" target="_blank"><h3>Github</h3></a>
+            <a className="artifact-font" href="https://www.dropbox.com/s/923svs7ffljfyh9/Adam%20Hoffman%20Full%20Stack%20Developer%20Resume.PDF?dl=0" target="_blank"><h3>Resume</h3></a>
+            <a href="https://www.linkedin.com/in/adam-hoffman-93ba371a7/" target="_blank"><img alt="Linked In icon" className="artifact-image" src={Linked}></img></a>
+            <a href="https://github.com/AdamHoffma" target="_blank"><img alt="github icon" className="artifact-image1" src={Github}></img></a>
+            <a href="https://www.dropbox.com/s/923svs7ffljfyh9/Adam%20Hoffman%20Full%20Stack%20Developer%20Resume.PDF?dl=0" target="_blank"><img alt="resume icon" className="artifact-image" src={Resume}></img></a>
           </div>
         </div>        
       </div>
