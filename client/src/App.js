@@ -50,8 +50,8 @@ function App() {
               <img alt="Profile" src={Image} className="intro-pic"></img>
             </div>
             <div className="h1-container">
-              <h1 className="h1">Adam Hoffman's Full Stack Web Development Portfolio</h1>
-              <a className="learn" href="#About">Learn More</a>
+              <h1 className="h1">Adam Hoffman</h1>
+              <h3 className="full-stack">Full Stack Web Developer</h3>              
             </div>
         </div>
         <div className="About" id="About">
